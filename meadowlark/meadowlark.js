@@ -4,9 +4,7 @@ const { engine } = require('express-handlebars');
 const app = express();
 
 // configure Handlebars view engine
-app.engine('handlebars', engine({
-  defaultLayout: 'main',
-}));
+app.engine('handlebars', engine());
 
 app.set('view engine', 'handlebars');
 
