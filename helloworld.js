@@ -1,5 +1,6 @@
 const http = require('http');
-const fs = require('fs');
+const fs = require('fs');// import the built-in from Node.js (file system)
+// This module provides an interface for working with the file system on your computer or server.
 
 const port = process.env.PORT || 3000;
 
